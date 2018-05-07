@@ -1,0 +1,124 @@
+header{
+  width:100%;
+}
+.headerF{
+  width:1200px;
+  height:30px;
+  margin:0 auto;
+  font-size:12px;
+  line-height:30px;
+  position:relative;
+}
+  .headerF>span{
+    position:absolute;
+  }
+  .headerF>ul{
+    position:absolute;
+    right:10px;
+  }
+    .headerF>ul>li{
+      box-sizing:border-box;
+      float:left;
+      margin-left:10px;
+     }
+.list{
+  float:left;
+  margin-left:20px;
+}
+	.firstb{
+        position:absolute;
+		right:145px;
+		top:0px;
+    }
+    .secondb{
+        position:absolute;
+		right:71px;
+		top:0;
+    }
+
+.zhanghao{
+	  width:82px;
+	  text-align:center;
+	}
+	.xlk{
+	  width:80px;
+	  position:relative;
+      border:1px solid #f1f1f1;
+	  padding-bottom:5px;
+	  background:#fff;
+	  z-index:999;
+	  display:none;
+	  cursor:pointer;
+	}
+	 .xlk>a{
+	    display:block;
+		width:72px;
+		height:25px;
+		text-align:center;
+		margin:0;
+	  }
+	.headerF a:hover{
+	   color:blue;
+	}
+hr{
+ display:block;
+ border:none;
+ border-top:1px solid #f1f1f1;
+ margin:0px;
+}
+.headerS{
+  width:1200px;
+  height:70px;
+  margin:0 auto;
+  line-height:70px;
+  display:flex;
+  position:relative;
+}
+.logo{
+  width:91px;
+  height:50px;
+  line-height:50px;
+}
+.cpin{
+  width:850px;
+  margin-left:80px;
+  z-index:1;
+}
+.cpin>li{
+    float:left;
+    margin:0 15px;
+    font-size:16px;
+}
+.cpin a:hover{
+   color:blue;
+}
+.ss{
+  width:179px;
+  position:relative;
+}
+.ss>input{
+  font-size:13px;
+  width:92px;
+  height:20px;
+  padding-left:8px;
+  border:1px solid red;
+  border-radius:10px;
+  outline:none;
+}
+.ss>b{
+  width:22px;
+  height:22px;
+  background:url(../img/ico_so.png) center no-repeat;
+  position:absolute;
+  left:79px;
+  top:24px;
+}
+.ss>a{
+  display:inline-block;
+  width:25px;
+  height:25px;
+  background:url(../img/ico_cart.png) center no-repeat;
+  position:absolute;
+  top:22px;
+  left:120px;
+}
